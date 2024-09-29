@@ -1,0 +1,21 @@
+.project-back{
+    display: grid;
+    text-align: left;
+    font-size: 3rem;
+    width: 100%;
+    margin: 2rem 5rem;
+}
+
+.project-main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    text-align: center;
+    font-size: 2rem;
+    margin: 10rem 5rem;
+}
+
+.project-main a{
+    font-size: 7rem;
+    text-decoration: none;
+}
+
