@@ -1,0 +1,81 @@
+.hero{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+}
+
+.box-1{
+    align-self: center;
+    padding: 7rem;
+    margin-left: 15rem;
+}
+
+.box-1 strong{
+    color: black;
+}
+
+.box-1 h1{
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.box-2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
+    gap: 2rem;
+    align-self: center;
+    text-align: justify;
+    text-align-last: left;
+    margin: auto 27px;
+}
+
+.box-2 h3,
+.box-2 p,
+.box-2 ul{
+    margin-left: 0.7rem;
+}
+
+.info__box{
+    display: grid;
+    gap: 0.5rem;
+    border-width: 0.5rem;
+    border-left-style: solid;
+}
+
+.info__box ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20%, 1fr));
+    gap: 2rem;
+}
+
+.info__box li{
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    background-color: #ededed;
+    border-radius: 25px;
+    font-style: normal;
+    font-size: 0.8rem;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info__box p{
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-style: normal;
+}
+
+strong{
+    background-color:#ededed;
+}
+
+.c1 strong{
+    color: red;
+}
+.c2 strong{
+    color: green;
+}
+.c3 strong{
+    color: blue;
+}

@@ -1,0 +1,21 @@
+.footer{
+    position: absolute;
+    bottom: 0;
+    height: 3rem;
+    background-color: #1b1b1b;
+}
+
+.footer-info{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20%, 1fr));
+    width: 100%;
+    gap: 3rem;
+    margin: 10px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.footer-box a{
+    text-decoration: none;
+}
